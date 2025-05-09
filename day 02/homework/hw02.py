@@ -1,5 +1,3 @@
-print("hello world")
-
 #mimateba
 
 5+5=10
