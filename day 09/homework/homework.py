@@ -8,7 +8,7 @@ print("Hello world!")
 
 
 #2 davaleba
-num = int(input("enter namber: "))
+num = int(input("enter number: "))
 
 for i in range(0, num):
     print(i)
@@ -20,4 +20,4 @@ num = int(input("enter number: "))
           
 while num > 0:
     print(num)
-    num -= 1
+    num += 1
