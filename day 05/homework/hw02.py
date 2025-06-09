@@ -1,19 +1,15 @@
-print("hello world!")
+num1 = int(input("sheiyvane pirveli "))
+num2 = int(input("sheiyvane meore"))
 
-age = (int(input("enter your age")))
-
-
-number = 5
-print(age + number)
-print(age - number)
-print(age * number)
-print(age / number)
-print(age % number)
-print(age < number)
-print(age > number)
-print(age <= number)
-print(age >= number)
-print(age == number)
-print(age != number)
-print(age ** number)
-
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / num2)
+print(num1 % num2) 
+print(num1 ** num2)
+print(num1 < num2)
+print(num1 > num2)
+print(num1 <= num2) 
+print(num1 >= num2) 
+print(num1 == num2)
+print(num1 != num2)

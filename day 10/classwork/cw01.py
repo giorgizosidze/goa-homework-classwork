@@ -1,6 +1,6 @@
 for i in range(1, 101):
 
-if i % 2 == 0:
+ i % 2 == 0
     print(f"{i} - luwi")
 else:
     print(f"{i} - kenti")
@@ -31,7 +31,7 @@ if num1 > num2:
 elif num2 > num1:
     print("higer number:", num2)
 else:
-    print("both number are equal")or i in range(1, 101):
+    print("both number are equal")or i in range(1, 101)
     if i % 2 == 0:
         print(f"{i} - luwi")
     else:
