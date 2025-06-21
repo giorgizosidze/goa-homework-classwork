@@ -5,6 +5,7 @@ for i in range(1, 101):
 else:
     print(f"{i} - kenti")
 
+# 2 davaleba
 
 number = int(input("enter number: "))
 
@@ -21,7 +22,7 @@ if num2 > num1:
 else:
     print("naklebi")
 
-
+# 3 davaleba
 
 num1 = int(input("enter your first num: "))
 num2 = int(input("enter your second num: "))
@@ -40,6 +41,8 @@ else:
 
         number = int(input("enter number: "))
 
+#  4 davaleba
+
 if number % 2 == 0:
     print("this number i luwi")
 else:
@@ -53,7 +56,7 @@ if num2 > num1:
 else:
     print("naklebi")
 
-
+# 5 davaleba
 
 num1 = int(input("enter your first num: "))
 num2 = int(input("enter your second num: "))
