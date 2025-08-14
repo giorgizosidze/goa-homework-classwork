@@ -42,3 +42,27 @@ def reverse_words(sentence):
     reverse_words = words[::-1]
     return " ".join(reverse_words)
 print(reverse_words("dges wvima iko"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
