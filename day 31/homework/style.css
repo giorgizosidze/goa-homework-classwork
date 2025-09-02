@@ -1,0 +1,26 @@
+/*4 davaleba externalit*/
+
+body{
+    background-color: #0f0f0f;
+    font-family: Arial, sans-serif;
+
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+}
+ h3{
+    color: blue;
+    font-size: 30px;
+}
+p{
+    color: yellow;
+    font-size: 20px;
+}
+div{
+    color: purple;
+    font-size: 22px;
+    background-color: chocolate;
+    padding: 10px;
+}

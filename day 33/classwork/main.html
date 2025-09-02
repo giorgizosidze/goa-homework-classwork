@@ -1,0 +1,170 @@
+<!-- 1 davaleba-->
+
+<!--Content → ეს არის ის ადგილი, სადაც რეალურად წერია ტექსტი ან დევს სურათი.-->
+
+<!--Padding → შიდა სივრცეა Content-სა და Border-ს შორის. (ტექსტი „იშორებს“ ჩარჩოსგან).-->
+
+<!--Border → ჩარჩოა, რომელიც გარს აკრავს Content + Padding-ს. მისი სიგანე, ფერი და სტილი შეგვიძლია ვაკონტროლოთ.-->
+
+<!--Margin → გარე სივრცეა Border-სა და სხვა ელემენტებს შორის. ანუ ელემენტები ერთმანეთს „შორდებიან“-->
+
+<!-- 2 davaleba-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model Example</title>
+  <style>
+    .box {
+      background-color: lightyellow; 
+      padding: 20px; /* შიდა სივრცე */
+      border: 5px solid green; /* ჩარჩო */
+      margin: 30px; /* გარე დაშორება */
+    }
+  </style>
+</head>
+<body>
+  <div class="box">გამარჯობა, მე ვარ Box Model</div>
+</body>
+</html>
+
+
+
+<!-- 3 davaleba-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>სამი ბოქსი</title>
+  <style>
+    .box {
+      padding: 20px;
+      margin: 15px;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+    }
+    .box1 {
+      background: tomato;
+      border: 5px solid darkred;
+    }
+    .box2 {
+      background: royalblue;
+      border: 5px dashed navy;
+    }
+    .box3 {
+      background: seagreen;
+      border: 5px dotted darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1">პირველი ბოქსი</div>
+  <div class="box box2">მეორე ბოქსი</div>
+  <div class="box box3">მესამე ბოქსი</div>
+</body>
+</html>
+
+
+<!-- 4 davaleba-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model მინი საიტი</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+    }
+
+    /* Navigation */
+    nav {
+      background: #333;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: orange;
+    }
+
+    /* Container */
+    .container {
+      background: white;
+      margin: 30px auto;
+      padding: 30px;
+      border: 5px solid #ccc;
+      width: 80%;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Boxes */
+    .boxes {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .box {
+      width: 25%;
+      padding: 20px;
+      margin: 10px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    .box1 {
+      background: tomato;
+      border: 5px solid darkred;
+    }
+    .box2 {
+      background: royalblue;
+      border: 5px dashed navy;
+    }
+    .box3 {
+      background: seagreen;
+      border: 5px dotted darkgreen;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">მთავარი</a>
+    <a href="#">ჩვენს შესახებ</a>
+    <a href="#">კონტაქტი</a>
+  </nav>
+
+  <div class="container">
+    <h1>Box Model დემო საიტი</h1>
+    <p>
+      ეს პატარა საიტი აჩვენებს როგორ მუშაობს **padding, border და margin**.  
+      თითოეული ბოქსი განსხვავებული ფერისაა, განსხვავებული ჩარჩოთი და დაშორებით.
+    </p>
+
+    <div class="boxes">
+      <div class="box box1">პირველი ბოქსი</div>
+      <div class="box box2">მეორე ბოქსი</div>
+      <div class="box box3">მესამე ბოქსი</div>
+    </div>
+  </div>
+
+</body>
+</html>

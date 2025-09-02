@@ -1,0 +1,391 @@
+<!-- 1 davaleba-->
+
+
+<!--Padding → შიდა სივრცეა კონტენტის და Border-ს შორის. თუ გაზრდი, ტექსტი/კონტენტი შიგნით „დაიწევს“ და ელემენტი შიგნიდან გაიზრდება.-->
+
+<!--Border → ჩარჩოა, რომელიც Padding-სა და Margin-ს შორისაა. Border-ის სიგანის გაზრდა ზრდის მთლიან ელემენტის ზომას.-->
+
+<!--Margin → გარე სივრცეა. ელემენტსა და სხვა ელემენტებს შორის დაშორება. გაზრდა ნიშნავს ელემენტის „გაწევას“ მეზობელი ელემენტებისგან.-->
+
+<!-- 2 davaleba-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model Example</title>
+  <style>
+    .box {
+      background-color: lightyellow; /* content */
+      padding: 30px;
+      background-clip: content-box;
+      border: 10px solid green; /* border */
+      margin: 20px;
+    }
+    body {
+      background-color: lightblue; /* margin background */
+    }
+  </style>
+</head>
+<body>
+  <div class="box">ეს არის Box Model</div>
+</body>
+</html>
+
+
+<!-- 3 davaleba-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Example</title>
+  <style>
+    .my-btn {
+      padding: 15px 30px; /* შიდა სივრცე */
+      border: 3px solid blue; /* ჩარჩო */
+      background-color: orange;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px; /* მომრგვალება */
+      cursor: pointer;
+      display: block;
+      margin: 50px auto; /* ცენტრში მოტანა */
+    }
+    .my-btn:hover {
+      background-color: darkorange;
+    }
+  </style>
+</head>
+<body>
+  <button class="my-btn">Click Me</button>
+</body>
+</html>
+
+
+<!--4 davaleba-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>მინი პროექტი</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    /* Navigation */
+    nav {
+      background: #333;
+      padding: 15px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: orange;
+    }
+
+    /* Content */
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    /* Registration form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, button {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: green;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: darkgreen;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#">მთავარი</a></li>
+      <li><a href="#">რეგისტრაცია</a></li>
+      <li><a href="#">ცხრილი</a></li>
+      <li><a href="#">კონტაქტი</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <div class="container">
+    <h2>რეგისტრაციის ფორმა</h2>
+    <form>
+      <input type="text" placeholder="სახელი">
+      <input type="email" placeholder="ელ-ფოსტა">
+      <input type="password" placeholder="პაროლი">
+      <button>რეგისტრაცია</button>
+    </form>
+
+    <h2>მონაწილეთა ცხრილი</h2>
+    <table>
+      <tr>
+        <th>სახელი</th>
+        <th>ელ-ფოსტა</th>
+      </tr>
+      <tr>
+        <td>გიორგი</td>
+        <td>giorgi@mail.com</td>
+      </tr>
+      <tr>
+        <td>ანა</td>
+        <td>ana@mail.com</td>
+      </tr>
+    </table>
+
+    <h2>ჩემი სია</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+
+</body>
+</html>
+
+
+
+<!-- 5 davaleba-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>მინი პროექტი - Aura Style</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+
+    /* Navigation */
+    nav {
+      background: rgba(0,0,0,0.8);
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ff9800;
+    }
+
+    /* Container */
+    .container {
+      width: 85%;
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    /* Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    input {
+      padding: 12px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    input:focus {
+      border-color: #ff9800;
+      outline: none;
+    }
+    button {
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(45deg, #ff9800, #ff5722);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: linear-gradient(45deg, #ff5722, #e91e63);
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background: #ff9800;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    /* List */
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    ul li {
+      background: #ffe0b2;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    ul li:hover {
+      background: #ffcc80;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#">მთავარი</a></li>
+      <li><a href="#">რეგისტრაცია</a></li>
+      <li><a href="#">ცხრილი</a></li>
+      <li><a href="#">სია</a></li>
+      <li><a href="#">კონტაქტი</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <div class="container">
+    <h2>რეგისტრაციის ფორმა</h2>
+    <form>
+      <input type="text" placeholder="სახელი">
+      <input type="email" placeholder="ელ-ფოსტა">
+      <input type="password" placeholder="პაროლი">
+      <button>რეგისტრაცია</button>
+    </form>
+
+    <h2>მონაწილეთა ცხრილი</h2>
+    <table>
+      <tr>
+        <th>სახელი</th>
+        <th>ელ-ფოსტა</th>
+      </tr>
+      <tr>
+        <td>გიორგი</td>
+        <td>giorgi@mail.com</td>
+      </tr>
+      <tr>
+        <td>ანა</td>
+        <td>ana@mail.com</td>
+      </tr>
+      <tr>
+        <td>ნიკა</td>
+        <td>nika@mail.com</td>
+      </tr>
+    </table>
+
+    <h2>ჩემი სია</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+    </ul>
+  </div>
+
+</body>
+</html>
