@@ -1,0 +1,67 @@
+/*  1 davaleba  */
+
+/* 
+`display: block;` ნიშნავს, რომ ელემენტი გამოდის ბლოკის ტიპის.
+იგი იკავებს მთელ სიგანეს და იწყება ახალ ხაზზე.
+მაგალითად: <div>, <p>, <h1> - ესენი ყველა block ელემენტებია.
+*/
+
+
+/*  2 davaleba */
+
+/*
+`display: inline;` ნიშნავს, რომ ელემენტი დარჩება იმავე ხაზზე სხვა ელემენტებთან ერთად.
+იგი არ იღებს მთელ სიგანეს და მისი ზომა დამოკიდებულია შიგთავსზე.
+მაგალითად: <span>, <a>, <strong> — ესენი არის inline ელემენტები.
+*/
+
+
+/*  4 davaleba */
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    span {
+      display: block; /* ვუცვლით default inline ქცევას block-ზე */
+      height: 50px;   /* ვაძლევთ სიმაღლეს */
+      margin-bottom: 10px;
+    }
+    .red { background-color: red; }
+    .green { background-color: green; }
+    .blue { background-color: blue; }
+  </style>
+</head>
+<body>
+
+  <span class="red"></span>
+  <span class="green"></span>
+  <span class="blue"></span>
+
+</body>
+</html>
+
+
+/*  5 davaleba */
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      display: inline; /* ვუცვლით default block ქცევას inline-ზე */
+      background-color: yellow;
+      margin-right: 10px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <p>პირველი</p>
+  <p>მეორე</p>
+  <p>მესამე</p>
+  <p>მეოთხე</p>
+
+</body>
+</html>
