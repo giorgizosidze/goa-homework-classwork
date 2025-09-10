@@ -25,7 +25,7 @@
     span {
       display: block; /* ვუცვლით default inline ქცევას block-ზე */
       height: 50px;   /* ვაძლევთ სიმაღლეს */
-      margin-bottom: 10px;
+      margin: botton 10px;
     }
     .red { background-color: red; }
     .green { background-color: green; }
