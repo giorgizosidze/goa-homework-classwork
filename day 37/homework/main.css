@@ -10,9 +10,8 @@
 /*  2 davaleba */
 
 /*
-`display: inline;` ნიშნავს, რომ ელემენტი დარჩება იმავე ხაზზე სხვა ელემენტებთან ერთად.
-იგი არ იღებს მთელ სიგანეს და მისი ზომა დამოკიდებულია შიგთავსზე.
-მაგალითად: <span>, <a>, <strong> — ესენი არის inline ელემენტები.
+`display: inline;` ნიშნავს, რომ ელემენტი დარჩება იმავე ხაზზე სხვა ელემენტებთან ერთად
+იგი არ იღებს მთელ სიგანეს და მისი ზომა დამოკიდებულია შიგთავსზე
 */
 
 
@@ -23,8 +22,8 @@
 <head>
   <style>
     span {
-      display: block; /* ვუცვლით default inline ქცევას block-ზე */
-      height: 50px;   /* ვაძლევთ სიმაღლეს */
+      display: block;
+      height : 50px
       margin: botton 10px;
     }
     .red { background-color: red; }
@@ -49,7 +48,7 @@
 <head>
   <style>
     p {
-      display: inline; /* ვუცვლით default block ქცევას inline-ზე */
+      display: inline; 
       background-color: yellow;
       margin-right: 10px;
       padding: 5px;
