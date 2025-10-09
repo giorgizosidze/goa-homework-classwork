@@ -1,0 +1,83 @@
+.box1 {
+  width: 150px;
+  height: 50px;
+  background-color: lightblue;
+  overflow: visible;
+}
+
+.box2 {
+  width: 200px;
+  height: 150px;
+  overflow: visible;
+}
+
+
+/* 3 davaleba */
+
+.clip1 {
+  width: 120px;
+  height: 40px;
+  background-color: lightcoral;
+  overflow: hidden;
+}
+
+
+.clip2 {
+  width: 180px;
+  height: 120px;
+  overflow: hidden;
+}
+
+
+/* 4 davaleba */
+
+.scroll1 {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: #eef;
+}
+
+
+.scroll2 {
+  width: 150px;
+  height: 150px;
+  overflow: scroll;
+}
+
+
+/* 5 davaleba */
+
+.auto1 {
+  width: 180px;
+  height: 60px;
+  overflow: auto;
+  background-color: #f9f9cc;
+}
+
+
+.auto2 {
+  width: 200px;
+  height: 80px;
+  overflow: auto;
+  border: 1px solid #888;
+}
+
+/* 6 davaleba */
+
+.xy1 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #333;
+  overflow-x: scroll;   
+  overflow-y: hidden;   
+}
+
+
+.xy2 {
+  width: 200px;
+  height: 140px;
+  border: 1px solid #555;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

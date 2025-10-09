@@ -1,0 +1,88 @@
+<!-- 1 davaleba -->
+<!-- overflow არის CSS თვისება, რომელიც მართავს, თუ რა ხდება მაშინ, როცა ელემენტის შიგთავსი (content) დიდია მის განკუთვნილ ყუთზე (box) -->
+<!-- overflow: value; -->
+
+<!-- 2 davaleba -->
+
+<!-- ესაა ღირებულების ნაგულისხმევი (default) მდგომარეობა -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="box1">
+  This is a very long text that will overflow the container if the container is small.
+    </div>
+
+    <div class="box2">
+  <img src="large-image.jpg" alt="big" />
+    </div>
+
+    <!-- 3 davaleba -->
+
+    <div class="clip1">
+  This is a text that will be clipped if too long.
+    </div>
+    
+    
+    <div class="clip2">
+  <img src="big-photo.jpg" alt="large" />
+    </div>
+
+    <!-- 4 davaleba -->
+
+    <!-- რაც არ უნდა ზომის იყოს შიგთავსი, ყუთში ყოველთვის დაემატება -->
+
+    <div class="scroll1">
+  <p>Very long content … (გრძელი ტექსტი)</p>
+    </div>
+
+    <div class="scroll2">
+  <img src="wide-and-tall.jpg" alt="big image" />
+    </div>
+
+    <!-- 5 davaleba -->
+     <!-- არის ბრძნულად მოქნილი — თუ შიგთავსი გაცდება ყუთის ზომებს -->
+    
+    <div class="auto1">
+  <p>Short text</p>
+    </div>
+    
+    <div class="auto2">
+  <p>აპროექტი — გრძელი ტექსტი … (ნაგრძელი ტექსტი ბევრი) … ბოლოში</p>
+    </div>
+ 
+
+    <!-- 6 davaleba -->
+
+    <!-- overflow-x მართავს ჰორიზონტალურ გადახრას (left ↔ right). -->
+
+    <!-- overflow-y მართავს ვერტიკალურ გადახრას (top ↔ bottom). -->
+
+    <div class="xy1">
+  <div class="inner" style="width:400px; height:120px; background: lightgreen;">
+    Wide content block
+  </div>
+    </div>
+    
+    <div class="xy2">
+  <div class="inner2" style="width:240px; height:180px; background: pink;">
+    Big block
+  </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+/* 1 davaleba */
+
+/*  overflow -- aris iseti ram romelic asrulebs hidden, croll, da asesemdeg */
+
+/* 2 davaleba */
+
+
+.item{
+    height: 150px;
+    width: 150px;
+    color: blue;
+    background-color: black;
+    
+}
+
+.IDK{
+    height: 200px;
+    width: 150px;
+    color: red;
+    overflow: hidden;
+}

@@ -1,0 +1,14 @@
+.koko{
+    color: blue;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+
+.kaka{
+    color: red;
+    height: 50px;
+    width: 100;
+    background-color: black;
+    overflow: scroll;
+}
