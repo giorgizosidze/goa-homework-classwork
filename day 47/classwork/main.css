@@ -1,0 +1,31 @@
+/* 2 davaleba */
+.mama{
+    width: 100px;
+    height: 100px;
+    color: rgb(64, 0, 255);
+    transform: translateX(200px);
+    background-color: red;
+}
+
+
+/* 3 davaleba */
+
+
+.lose{
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: blue;
+    transform: rotate(50%);
+}
+
+
+/* 4 davaleba */
+
+.lol{
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: blue;
+    transform: scale(10, 10);
+}

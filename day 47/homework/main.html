@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 47 - transform</title>
+  <style>
+    /* 
+      1) transform — გამოიყენება ელემენტის ფორმის, ზომის ან მდებარეობის შესაცვლელად.
+      მასთან ერთად შეგვიძლია ელემენტი გადავაადგილოთ, დავატრიალოთ, გავზარდოთ ან დავამახინჯოთ.
+    */
+
+    /* 
+      2) transform-ის მნიშვნელობები, რომლებიც ვისწავლეთ:
+         - translate(x, y) → გადაადგილებს ელემენტს მითითებული მანძილით x და y ღერძებზე.
+         - translateX(x) → გადაადგილებს მხოლოდ x ღერძზე.
+         - translateY(y) → გადაადგილებს მხოლოდ y ღერძზე.
+         - scale(x, y) → ზრდის ან ამცირებს ელემენტის ზომას.
+         - rotate(deg) → ატრიალებს ელემენტს მითითებული გრადუსით.
+    */
+
+    /* 4) გადაადგილება X=100px, Y=200px */
+    .move1 {
+      width: 100px;
+      height: 100px;
+      background: lightcoral;
+      transform: translate(100px, 200px);
+    }
+
+    /* 5) გადაადგილება მხოლოდ X=400px */
+    .move2 {
+      width: 100px;
+      height: 100px;
+      background: lightgreen;
+      transform: translateX(400px);
+    }
+
+    /* 6) ელემენტის გაზრდა 4-ჯერ */
+    .scale4 {
+      width: 100px;
+      height: 100px;
+      background: lightblue;
+      transform: scale(4);
+    }
+
+    /* 
+      7) ელემენტის დატრიალება საათის ისრის საწინააღმდეგოდ:
+         → rotate(-deg) – უარყოფითი მნიშვნელობა ატრიალებს საწინააღმდეგოდ.
+    */
+
+    /* 8) ატრიალება საათის ისრის საწინააღმდეგოდ 50° */
+    .rotate-left {
+      width: 100px;
+      height: 100px;
+      background: gold;
+      transform: rotate(-50deg);
+    }
+
+    /* 9) ატრიალება საათის ისრის მიმართულებით 100° */
+    .rotate-right {
+      width: 100px;
+      height: 100px;
+      background: violet;
+      transform: rotate(100deg);
+    }
+
+    /* 
+      10) კომბინირებული transform:
+           → გადაიტანე 50px (X), 100px (Y)
+           → გაზარდე 3-ჯერ
+           → ატრიალე 120°
+    */
+    .combo {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      transform: translate(50px, 100px) scale(3) rotate(120deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="move1">4</div>
+  <div class="move2">5</div>
+  <div class="scale4">6</div>
+  <div class="rotate-left">8</div>
+  <div class="rotate-right">9</div>
+  <div class="combo">10</div>
+
+</body>
+</html>
