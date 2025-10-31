@@ -1,0 +1,63 @@
+/* 2 davaleba */
+
+
+.color-change {
+  width: 200px;
+  height: 200px;
+  animation: bgChange 5s infinite;
+}
+
+@keyframes bgChange {
+  0%   { background: red; }
+  25%  { background: yellow; }
+  50%  { background: green; }
+  75%  { background: blue; }
+  100% { background: red; }
+}
+/* 3 davaleba */
+
+.move-all {
+  width: 80px;
+  height: 80px;
+  background: purple;
+  position: absolute;
+  animation: travel 6s infinite linear;
+}
+
+@keyframes travel {
+  0%   { top: 0; left: 0; }
+  25%  { top: 0; left: calc(100% - 80px); }
+  50%  { top: calc(100% - 80px); left: calc(100% - 80px); }
+  75%  { top: calc(100% - 80px); left: 0; }
+  100% { top: 0; left: 0; }
+}
+
+
+/* 4 davaleba */
+
+.fade-in {
+  opacity: 0;
+  animation: appear 2s forwards;
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+
+/* 5 davaleba */
+.scale-twice {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  margin-top: 20px;
+  animation: growShrink 2s 2;
+}
+
+@keyframes growShrink {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}
