@@ -1,0 +1,7 @@
+/* 4 davaleba */
+.bar4 {
+  width: 600px;
+  height: 80px;
+  background: linear-gradient(to right, red, yellow, transparent 60%);
+  margin: 20px auto;
+}

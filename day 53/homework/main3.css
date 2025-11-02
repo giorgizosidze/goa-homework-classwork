@@ -1,0 +1,12 @@
+
+
+.gadasvla{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right , red, yellow);
+    border: 5px solid black;
+    border-radius: 90px;
+}

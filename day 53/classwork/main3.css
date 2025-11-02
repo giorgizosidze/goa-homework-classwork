@@ -1,0 +1,8 @@
+/* 3 davaleba */
+.block3 {
+  width: 80%;
+  min-width: 300px;
+  height: 50vh; 
+  background: rgb(0, 2, 3);
+  margin: 20px auto;
+}

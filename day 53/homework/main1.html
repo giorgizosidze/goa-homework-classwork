@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+    <div class="box left"></div>
+<div class="box middle"></div>
+<div class="box right"></div>
+
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+  }
+
+  .left {
+    background: blue;
+    left: 50px;
+    top: 50px;
+    z-index: 1; 
+  }
+
+  .middle {
+    background: green;
+    left: 80px;
+    top: 40px;
+    z-index: 3; 
+  }
+
+  .right {
+    background: red;
+    left: 110px; 
+    top: 60px;
+    z-index: 2;
+  }
+</style>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* 6 davaleba */
+.block6 {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(white, blue);
+  margin: 20px auto;
+}

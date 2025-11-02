@@ -1,0 +1,44 @@
+
+
+
+.gilaki{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+
+button{
+    height: 50px;
+    width: 60px;
+    border-radius: 90px;
+    border: 2px solid black;
+
+}
+
+
+
+button:hover{
+    background: linear-gradient(to right, red, blue);
+}
+
+/* 8 davaleba */
+
+/* %
+   ზომას იღებს მშობელი ელემენტის ზომიდან.
+
+
+/* vw 
+   დამოკიდებულია ეკრანის სიგანეზე.
+
+
+/* vh 
+   დამოკიდებულია ეკრანის სიმაღლეზე.
+  
+
+
+/* em
+   დამოკიდებულია ელემენტის (ან მშობელი ელემენტის) font-size-ზე.

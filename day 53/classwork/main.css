@@ -1,0 +1,47 @@
+    h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.linear {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    background: linear-gradient(to right, red, yellow);
+    border: 2px solid #333;
+}
+.radial {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    background: radial-gradient(circle, blue, pink);
+    border: 2px solid #333;
+}
+
+
+
+/* 1 davaleba */
+
+
+/* %
+   ზომას იღებს მშობელი ელემენტის ზომიდან.
+
+
+/* vw 
+   დამოკიდებულია ეკრანის სიგანეზე.
+
+
+/* vh 
+   დამოკიდებულია ეკრანის სიმაღლეზე.
+  
+
+
+/* em
+   დამოკიდებულია ელემენტის (ან მშობელი ელემენტის) font-size-ზე.
+
+
+/* 2 davaleba */
+
+
+
+
+

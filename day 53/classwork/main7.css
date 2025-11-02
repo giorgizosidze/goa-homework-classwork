@@ -1,0 +1,14 @@
+/* 7 davaleba */
+.block7 {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 20px auto;
+}
+
+
+@media (max-width: 600px) {
+  .block7 {
+    background: red;
+  }
+}
