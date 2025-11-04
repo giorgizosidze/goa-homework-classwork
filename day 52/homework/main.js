@@ -69,7 +69,7 @@ if (b > 0) {
 
 // 8 davaleba
 
-\\
+
 let x = Number(prompt("შეიყვანე პირველი რიცხვი:"));
 let y = Number(prompt("შეიყვანე მეორე რიცხვი:"));
 
