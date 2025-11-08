@@ -1,0 +1,18 @@
+/* 4 davaleba */
+
+.gridH {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 80px;
+  align-items: center;
+  gap: 10px;
+}
+
+.tall {
+  background: tomato;
+  grid-row: span 2;
+}
+
+.normal {
+  background: skyblue;
+}

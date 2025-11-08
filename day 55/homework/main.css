@@ -1,0 +1,27 @@
+/* 1 davaleba */
+
+/* display: grid; ნიშნავს, რომ ელემენტი ხდება Grid კონტეინერი, სადაც შიგნით svil ელემენტები განლაგდებიან სვეტებად და რიგებად */
+
+
+/* 2 davaleba */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+  width: 400px;
+}
+
+.box {
+  height: 80px;
+}
+
+.b1 { background: red; }
+.b2 { background: orange; }
+.b3 { background: yellow; }
+.b4 { background: green; }
+.b5 { background: blue; }
+.b6 { background: purple; }
+.b7 { background: pink; }
+.b8 { background: cyan; }
+.b9 { background: gray; }

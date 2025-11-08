@@ -1,0 +1,15 @@
+/* 3 davaleba */
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.item {
+  background: lightblue;
+  height: 70px;
+}
+
+.big1 { grid-column: span 2; background: lightgreen; }
+.big2 { grid-column: span 3; background: salmon; }
+.big3 { grid-column: span 2; background: gold; }
