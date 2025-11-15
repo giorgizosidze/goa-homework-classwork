@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Pseudo-classes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h2> <!--1 -- 5-->  Button Examples</h2>
+    <button class="nice-btn">დააჭირე მე</button>
+
+    <h2> <!--7--> Input focus</h2>
+    <input type="text" placeholder="ჩაწერე რამე..." class="focus-input">
+
+    <h2> <!--8-->  Textarea focus enlarge</h2>
+    <textarea class="focus-area" placeholder="ტექსტი..."></textarea>
+
+    <h2> <!--9-->  :is() example</h2>
+    <div class="msg error">ERROR ტექსტი</div>
+    <div class="msg warning">WARNING ტექსტი</div>
+    <div class="msg success">SUCCESS ტექსტი</div>
+
+    <h2> <!--10--> Checkbox → show hidden text</h2>
+    <label>
+        <input type="checkbox" id="check">
+        ჩაწიკვინდი
+    </label>
+    <p class="hidden-text">ეს ტექსტი ჩეკბოქსზე ჩართვისას ჩნდება</p>
+
+    <h2> <!--11-->  Email validation</h2>
+    <input type="email" class="email" placeholder="შეიყვანე Email">
+
+    <h2> <!--12-->  :target example</h2>
+    <a href="#box1">BOX1</a> |
+    <a href="#box2">BOX2</a>
+
+    <div id="box1" class="target-box">ეს არის Box 1</div>
+    <div id="box2" class="target-box">ეს არის Box 2</div>
+
+</body>
+</html>
